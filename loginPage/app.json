@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#E7644F",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"image/home-tabBar.png",
+      "selectedIconPath":"image/home-tabBar-hover.png"
+    }, {
+      "pagePath": "pages/user/user",
+      "text": "用户中心",
+      "iconPath":"image/my-tabBar.png",
+      "selectedIconPath":"image/my-tabBar-hover.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+
+}
